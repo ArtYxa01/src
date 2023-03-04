@@ -1,8 +1,9 @@
 const refs = {
-    counterValue: document.querySelector('#value'),
+    value: document.querySelector('#value'),
     reduceClickButton: document.querySelector('[data-action="decrement"]'),
     addClickButton: document.querySelector('[data-action="increment"]'),
 };
+const counterValue=0
 refs.reduceClickButton.addEventListener('click', (event) => {
   refs.counterValue.textContent -= 1;
   });
