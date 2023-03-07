@@ -14,4 +14,4 @@ const elements = ingredients.map(el => {
   element.textContent = `${el}`;
   return element;
 })
-list.append(...element)
+list.append(...elements)
